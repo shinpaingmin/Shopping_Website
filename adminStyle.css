@@ -1,0 +1,43 @@
+body {
+    background: #eee;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url('images/1.jpg');
+    height: 100vh;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+.input-search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: #fff;
+}
+
+.btn-search {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.icon-parent {
+    position: relative;
+}
+
+.icon-bullet {
+    /* content: "";
+    top: 10px;
+    left: 15px; */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
